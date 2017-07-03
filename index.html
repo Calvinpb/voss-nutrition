@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Voss Nutrition</title>
+</head>
+<body>
+<div class="nav">
+    <label class="nav-H" href="#">Home</label>
+    <label class="nav-C">Contact</label>   
+</div>
+<div class="main">
+    <div class="container">
+        <div class="container-width">
+            <div class="header">
+                <h3>Voss Nutrition</h3>
+            </div>
+            <div class="meal-p">
+                <p>Simplifying your dietary routine  =  wasting less time | equates to | more time spent doing the things you really love.
+                </p>
+            </div>
+            <br>
+            <h2>= Time spent on an average day =</h2>
+            <br>
+        <div class="chart" id="piechart"></div>
 
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+        <script type="text/javascript">
+        // Load google charts
+        google.charts.load('current', {'packages':['corechart']});
+        google.charts.setOnLoadCallback(drawChart);
+
+        // Draw the chart and set the chart values
+        function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+        ['Task', 'Hours per Day'],
+        ['Work', 8],
+        ['Eat', 2],
+        ['Sex', 4],
+        ['Gym', 2],
+        ['Sleep', 8]
+        ]);
+
+        // Optional; add a title and set the width and height of the chart
+        var options = {'title':'Your Typical Day', 'width':550, 'height':400};
+
+        // Display the chart inside the <div> element with id="piechart"
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+        chart.draw(data, options);
+        }
+        </script>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+</body>
+    <div class="footer">
+        <label class="label-F">By Victor Pinacue</label>
+    </div>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/going.css">
+    <title>Voss Nutrition</title>
+</head>
+<body>
+<div class="nav">
+    <label class="nav-H" href="#">Home</label>
+    <label class="nav-G" href="#">Going Vegan</label>
+    <label class="nav-C">Contact</label>   
+</div>
+<div class="main">
+    <div class="container">
+        <div class="container-width">
+            <div class="header">
+                <h3>Going Vegan</h3>
+            </div>
+            <div class="meal-p">
+                <p>It's not exactly considered an easy push for anyone to turn Vegan simply over night,
+                    most people will opt for gradually replacing their source of Dairy products and Meat 
+                    for subsidiesed alternatives such as Soy milk and Tofu.
+                </p>
+            </div>
+            <br>
+            <h2>= Finding the right approach =</h2>
+            <br>
+            <p>We can start off with animal products, as there are a great variety of alternatives out there
+                which can provide the body it's neccessary nutrients it requires to function in an optimal state.
+                Soy, Rice and Almond milk are all great places to start.
+                </p>        
+    </div>
+</div>
+<br>
+<br>
+<br>
+</body>
+    <div class="footer">
+        <label class="label-F">By Victor Pinacue</label>
+    </div>
+
+</html>
